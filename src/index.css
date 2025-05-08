@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+.slick-prev, .slick-next {
+    display: block !important;
+    z-index: 10;
+  }
+  
+
+

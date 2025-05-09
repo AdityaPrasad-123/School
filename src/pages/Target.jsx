@@ -5,7 +5,7 @@ export default function TargetPage() {
   const { img, description } = location.state || {};
 
   return (
-    <div className="min-h-screen w-full px-4 py-8 bg-blue-950 text-white flex flex-col items-center justify-center">
+    <div className="min-h-screen w-full px-4 py-8 text-white flex flex-col items-center justify-center">
       {img ? (
         <div className="max-w-4xl w-full text-center">
           <img

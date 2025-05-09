@@ -12,7 +12,7 @@ import Class1 from "./pages/Class1";
 import Class2 from "./pages/Class2";
 import News from "./pages/News";
 import Class3 from './pages/Class3';
-import Class4 from "./pages/class4";
+import Class4 from "./pages/Class4";
 import Class5 from "./pages/Class5";
 import Class6 from "./pages/Class6";
 import Class7 from "./pages/Class7";

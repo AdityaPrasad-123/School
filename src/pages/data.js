@@ -6,6 +6,7 @@ import school3 from '../assets/Images/school3.jpg'
 import school4 from '../assets/Images/school4.jpg'
 import school6 from '../assets/Images/school6.jpg'
 import main1 from  '../assets/Images/main1.jpg'
+import mainschool from  '../assets/Images/mainschool.jpg'
 
 import event1 from  '../assets/Images/event1.jpg'
 import event2 from  '../assets/Images/event2.jpg'
@@ -27,6 +28,7 @@ import adityaKumar from '../assets/Images/adityaKumar.jpg'
 
 export const school= [
     event1,
+    mainschool,
     event2,
     event3,
     main1,

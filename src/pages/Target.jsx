@@ -5,14 +5,18 @@ export default function TargetPage() {
   const { img, description } = location.state || {};
 
   return (
-    <div className='p-4 w-full h-screen text-white'>
+    <div className="min-h-screen w-full px-4 py-8 bg-blue-950 text-white flex flex-col items-center justify-center">
       {img ? (
-        <>
-          <img src={img} alt='news' className='w-[80%] h-[500px] max-w-xl mx-auto rounded shadow-lg' />
-          <p className='text-lg mt-4 text-center' >{description}</p>
-        </>
+        <div className="max-w-4xl w-full text-center">
+          <img
+            src={img}
+            alt="news"
+            className="w-full max-h-[500px] object-cover rounded-lg shadow-lg mx-auto"
+          />
+          <p className="text-lg sm:text-xl mt-6">{description}</p>
+        </div>
       ) : (
-        <p>No image data provided.</p>
+        <p className="text-xl">No image data provided.</p>
       )}
     </div>
   );

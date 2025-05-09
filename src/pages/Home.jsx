@@ -100,14 +100,14 @@ const Home = () => {
 </div>
 
 <h1 className='text-2xl font-medium text-center mt-5 text-white'>About<span className='text-amber-600'>Us</span></h1><br/>
-<div className='grid sm:grid-cols-2 space-x-2 text-white shadow-4xl h-auto '>
-      <img src={main1} alt='' className='sm:h-[500px] h-[300px] pl-5 mt-15 ' />
+<div className='grid sm:grid-cols-2 space-x-2 text-white shadow-4xl h-auto  w-[100%'>
+      <img src={main1} alt='' className='sm:h-[500px] h-[300px] w-[70%] pl-5 mt-15 ' />
 
-      <div className='h-[400px] sm:h-[650px] text-2xl mx-5 overflow-y-scroll sm:overflow-hidden break-words'>
+      <div className='h-[400px]  sm:h-[650px] text-2xl mx-5 w-[95%] overflow-y-scroll sm:overflow-hidden break-words'>
 
   <p className='text-2xl text-center font-medium py-4 text-white'>HIGH QUALITY EDUCATION</p>
 
-  <p className='text-xl font-medium justify-content w-full'>
+  <p className='text-xl font-medium justify-content w-[100%]'>
     Dear Guardians and Students,<br/><br/>
     I would like to express my heartfelt thanks for your cooperation, confidence, and consideration for this institution, Shree Nepal Rastriya Secondary School, established in the year 2014 B.S. The Institute has been giving consistent importance to quality professional education to meet the needs and expectations of individuals and the nation, conducting PG to 10 and +2 (Science, Commerce, Education, Arts).<br/><br/>
     Shree Nepal Rastriya Secondary School would not have been so successful to establish its milestone, had there not been a wholehearted contribution from the teachers, students, parents, and well-wishers. The credit goes to everyone. I request potential students to think of the challenges they are most likely to face in the future before choosing their program of study.<br/><br/>
@@ -232,15 +232,15 @@ const Home = () => {
           <form onSubmit={onSubmit} className='space-y-4 sm:w-[800px] w-auto'>
             <div>
               <label htmlFor='name' className='block mb-1'>Your Name:</label>
-              <input className='w-full h-12 border px-3 bg-slate-900 rounded' id='name' type='text' placeholder='Enter your name' name='name' required />
+              <input className='w-full h-12 border px-3 bg-slate-900 rounded text-white' id='name' type='text' placeholder='Enter your name' name='name' required />
             </div>
             <div>
               <label htmlFor='email' className='block mb-1'>Your Email:</label>
-              <input className='w-full h-12 border px-3 bg-slate-900 rounded' id='email' type='email' placeholder='Enter your email' name='email' required />
+              <input className='w-full h-12 border px-3 bg-slate-900 rounded text-white' id='email' type='email' placeholder='Enter your email' name='email' required />
             </div>
             <div>
               <label htmlFor='message' className='block mb-1'>Write your message:</label>
-              <textarea className='w-full px-3 py-2 border bg-slate-900 rounded' rows={5} placeholder='Enter your message here' name='message' required />
+              <textarea className='w-full px-3 py-2 border bg-slate-900 rounded text-white' rows={5} placeholder='Enter your message here' name='message' required />
             </div>
             <button className='bg-amber-700 hover:bg-blue-800 text-white font-medium py-2 px-6 rounded-full' id='message' type='submit'>Send</button>
           </form>

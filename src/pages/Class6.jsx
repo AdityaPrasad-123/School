@@ -4,9 +4,9 @@ import adityaKumar from '../assets/Images/adityaKumar.jpg'
 const Class6 = () => {
   return (
     <div className='min-h-screen'>
-      <h1 className='text-center font-bold text-4xl mt-5 underline'>Class-6</h1>
-      <h1 className='text-center font-bold text-xl mt-5'>Class-teacher</h1>
-           <div className='sm:h-[450px] sm:w-[400px] bg-black rounded-tl-[6px] rounded-tr-[6px] text-white rounded-xl mx-auto text-center mt-8'>
+      <h1 className='text-center font-bold text-4xl mt-5 underline text-white'>Class-6</h1>
+      <h1 className='text-center font-bold text-xl mt-5 text-white'>Class-teacher</h1>
+           <div className='sm:h-[450px] sm:w-[400px] bg-amber-200 rounded-tl-[6px] rounded-tr-[6px] text-black rounded-xl mx-auto text-center mt-8'>
              <img className='rounded-l h-[300px] w-full object-cover rounded-tl-[6px] rounded-tr-[6px] ' src={adityaKumar} alt='' />
              <p className='mt-2'>Mr.Aditya Kumar Yadav</p>
              <p>Qualification:B.E.D</p>

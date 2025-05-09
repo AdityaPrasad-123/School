@@ -72,7 +72,7 @@ const Home = () => {
       <h1 className='text-2xl font-medium text-center mt-10 text-white'>About <span className='text-amber-600'>Us</span></h1>
       <div className='grid grid-cols-1 md:grid-cols-2 gap-6 px-4 py-6 text-white'>
         <img src={main1} alt='' className='w-full h-auto object-cover rounded-lg' />
-        <div className='text-lg overflow-y-auto max-h-[600px]'>
+        <div className='text-lg overflow-y-auto sm:h-[600px] h-[300px]'>
           <p className='text-2xl font-medium text-center py-4'>HIGH QUALITY EDUCATION</p>
           <p className='mb-4'>Dear Guardians and Students, A state school, public school, or government school is a primary or secondary school that educates all students without charge.<br/>
            They are funded in whole or in part by taxation and operated by the government of the state.<br/>

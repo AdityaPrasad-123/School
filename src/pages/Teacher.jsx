@@ -75,8 +75,8 @@ const Teacher = () => {
   return (
     <div className='min-h-screen'>
       <h1 className='text-center font-bold text-4xl mt-5 text-white'>Our teachers team</h1>
-      <div className='sm:h-[400px] sm:w-[300px] bg-amber-200 rounded-tl-[6px] rounded-tr-[6px] text-black rounded-xl mx-auto text-center mt-8'>
-        <img className='rounded-l h-[250px] w-full object-cover rounded-tl-[6px] rounded-tr-[6px] ' src={adityaKumar} alt='' />
+      <div className='sm:h-[450px] sm:w-[400px] bg-amber-200 rounded-tl-[6px] rounded-tr-[6px] text-black rounded-xl mx-auto text-center mt-8'>
+        <img className='rounded-l h-[300px] w-full object-cover rounded-tl-[6px] rounded-tr-[6px] ' src={adityaKumar} alt='' />
         <p className='mt-2'>Mr.Aditya Kumar Yadav</p>
         <p>Mr.Aditya Kumar Yadav</p>
         <p>Mr.Aditya Kumar Yadav</p>
@@ -84,11 +84,11 @@ const Teacher = () => {
         <p>Mr.Aditya Kumar Yadav</p>
       </div>
 
-    <div className="grid grid-cols-1 sm:grid-cols-6 gap-6 p-4  text-white mt-5">
+    <div className="grid grid-cols-1 sm:grid-cols-4 gap-6 p-4  text-white mt-5">
       {teacherList.map((teacher,index) => (
 
-<div key={index} className="bg-amber-200 text-black rounded-xl sm:h-[390px] sm:w-[300px] mt-5 overflow-hidden shadow-lg hover:shadow-xl transition">
-<div  className="sm:w-[300px] h-50  rounded-xl bg-white  items-center justify-center">
+<div key={index} className="bg-amber-200 text-black rounded-xl sm:h-[430px] sm:w-[400px] mt-5 overflow-hidden shadow-lg hover:shadow-xl transition">
+<div  className="sm:w-[400px] h-60  rounded-xl bg-white  items-center justify-center">
   <img
     src={teacher.image}
     alt={teacher.name}

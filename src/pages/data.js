@@ -18,6 +18,9 @@ import news1 from '../assets/Images/news1.jpg'
 import news2 from '../assets/Images/news2.jpeg'
 import news3 from '../assets/Images/news3.jpg'
 import news4 from '../assets/Images/news4.jpg'
+import video from '../assets/videos/video.mp4'
+
+
 
 
 
@@ -184,29 +187,35 @@ export const event = [
    ];
 
 
-   export const news=[
-    {
-        img:news1,
-        description:'Today newsfngokfndofnldfjngiufnhdsofndjgodfslfjodnlk'
-    },
-    {
-        img:news2,
-        description:'Today newsdngkidhnfodn'
-    },
-    {
-        img:news3,
-        description:'भर्नासम्बन्धी सूचना'
-    },
-    {
-        img:news4,
-        description:'Today news'
-    },
-    {
-        img:school1,
-        description:'Today news'
-    },
-   ]
-
-
-
- 
+  export const news = [
+  {
+    type: 'image',
+    img: news1,
+    description: 'Today newsfngokfndofnldfjngiufnhdsofndjgodfslfjodnlk',
+  },
+  {
+    type: 'image',
+    img: news2,
+    description: 'Today newsdngkidhnfodn',
+  },
+  {
+    type: 'image',
+    img: news3,
+    description: 'भर्नासम्बन्धी सूचना',
+  },
+  {
+    type: 'image',
+    img: news4,
+    description: 'Today news',
+  },
+  {
+    type: 'image',
+    img: school1,
+    description: 'Today news',
+  },
+  {
+    type: 'video',
+    videoUrl: video,
+    description: 'Today news',
+  }
+];

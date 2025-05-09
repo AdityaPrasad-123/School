@@ -18,7 +18,7 @@ const Navbar = () => {
         {/* Right: Nav links and mobile menu button */}
         <div className="flex items-center justify-end flex-1">
           {/* Desktop Menu */}
-          <div className="space-x-6 hidden sm:flex ml-250">
+          <div className="space-x-6 hidden sm:flex ">
             <Link to="/" className="hover:underline font-medium hover:text-blue-600 text-lg">Home</Link>
             <Link to="/about" className="hover:underline font-medium hover:text-blue-600 text-lg">About</Link>
             <Link to="/teacher" className="hover:underline font-medium hover:text-blue-600 text-lg">Teacher</Link>
